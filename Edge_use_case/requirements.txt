@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+langchain
+openai
+pandas
+dotenv
+crewai
+groq
+faiss  # Likely needed by langchain_google_genai
+google-generativeai  # Might be needed by langchain_google_genai (depending on installation method)

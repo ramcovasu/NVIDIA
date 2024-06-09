@@ -1,0 +1,6 @@
+device_id,datetime,temperature,pressure,CO2,voltage,rotation_speed,anomaly_flag,model_output
+1233,2024-06-06 22:50:45,29,102,483,3,117,Y,"The Temperature is 29 which is not in 20-25"
+1233,2024-06-06 22:50:45,21,102,502,3,172,Y,"The CO2 is 502 which is not in 400-500"
+1233,2024-06-06 22:50:45,24,109,470,4,136,Y,"The pressure is 109 which is not in 100-105"
+1233,2024-06-06 22:50:45,24,104,484,9,174,Y,"The voltage is 9 which is not in 3-5"
+1233,2024-06-06 22:50:45,51,109,467,4,174,Y,"The temperature is 51 which is not in 20-25 and pressure is 109 which is not in 100-105"
