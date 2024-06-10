@@ -1,0 +1,116 @@
+[
+    {
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 
+		09:48:29,102,6,3,200",
+        "output": "1. There is an anomaly in the dataset as the temperature is not in the range of 20-25. Rest of the parameters are within the ranges"
+    },
+	 {
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 
+		09:48:29,123,6,3,200",
+        "output": "1. There is an anomaly in the dataset as the pressure is not in the range of 100-105. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,3,200",
+        "output": "1. There is an anomaly in the dataset as the co2 is not in the range of 400-500. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,7,200",
+        "output": "1. There is an anomaly in the dataset as the voltage is not in the range of 3-5. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,7,200",
+        "output": "1. There is an anomaly in the dataset as the rotation_speed is not in the range of 100-150. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 
+		09:48:29,102,6,3,200",
+        "output": "1. There is an anomaly in the dataset as the temperature is not in the range of 20-25. Rest of the parameters are within the ranges"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 
+		09:48:29,123,6,3,200",
+        "output": "1. There is an anomaly in the dataset as the pressure is not in the range of 100-105. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,3,200",
+        "output": "1. There is an anomaly in the dataset as the co2 is not in the range of 400-500. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,7,200",
+        "output": "1. There is an anomaly in the dataset as the voltage is not in the range of 3-5. Rest of the parameters are within the range"
+    },
+	{
+        "instruction": "You need to find Anomaly in the given dataset",
+        "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1233,2024-06-04 09:48:29,123,450,7,200",
+        "output": "1. There is an anomaly in the dataset as the rotation_speed is not in the range of 100-150. Rest of the parameters are within the range"
+    },
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1241,2024-06-10 10:00:00,22,102,350,5.8,95",
+	  "output": "1. There is an anomaly in the dataset as the rotation speed (95) is below the normal range (100-150)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1242,2024-06-10 10:00:00,20,106,200,4,170",
+	  "output": "1. There is an anomaly in the dataset as the temperature (20) is below the normal range (20-25)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1243,2024-06-10 10:00:00,26,101,400,3.2,140",
+	  "output": "1. There is an anomaly in the dataset as the temperature (26) is above the normal range (20-25).\n  - CO2 (400) is above a typical range (assuming no specific range provided)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1244,2024-06-10 10:00:00,23,97,200,4.7,115",
+	  "output": "1. There is an anomaly in the dataset as the pressure (97) is below the normal range (100-105)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1245,2024-06-10 10:00:00,21,104,350,1.8,125",
+	  "output": "1. There are anomalies in the dataset:\n  - Voltage (1.8) is below the normal range (3-5).\n  - CO2 (350) is above a typical range (assuming no specific range provided)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1246,2024-06-10 10:00:00,24,100,450,4.5,100",
+	  "output": "1. There is an anomaly in the dataset as the CO2 (450) is above a typical range (assuming no specific range provided)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1247,2024-06-10 10:00:00,18,103,200,7.2,135",
+	  "output": "1. There are anomalies in the dataset:\n  - Temperature (18) is below the normal range (20-25).\n  - Voltage (7.2) is above the normal range (3-5)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1248,2024-06-10 10:00:00,23.96912139278523,104.87934896680943,385,3.116144605688569,105.99200724207391",
+	  "output": "No anomalies detected in this record."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1249,2024-06-10 10:00:00,22.844466843502307,104.36274018201753,284,3.6249069214707075,117.23053009703631",
+	  "output": "No anomalies detected in this record."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1250,2024-06-10 10:00:00,21.709116019097632,104.54868348195808,484,3.331706388771698,135.45847648859268",
+	  "output": "1. There is an anomaly in the dataset:\n  - CO2 (484) is above a typical range (assuming no specific range provided)."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1251,2024-06-10 10:00:00,24.12652589434095,100.44726328860584,292,3.8907479690621436,101.36340328888554",
+	  "output": "No anomalies detected in this record."
+	},
+	{
+	  "instruction": "You need to find Anomaly in the given dataset",
+	  "input": "device_id,datetime,temperature,pressure,co2,voltage,rotation_speed\n1252,2024-06-10 10:00:00,20.067321435237353,103.33858405015381,346,3.1931255067270428,109.40309155169838",
+	  "output": "No anomalies detected in this record."
+	}
+]
